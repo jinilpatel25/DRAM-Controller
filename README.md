@@ -1,1 +1,1 @@
-# DRAM-Controller
+Microcomputer systems need a mixture of both RAM and ROM to function. The ROM holds firmware responsible for “booting” the system to life, while the RAM is needed for program variables, stack, heap etc. Both types of memory also need to be located in the CPUs memory map hence an address decoder is required. Firmware can be an OS, or in this case, a simple debug monitor program to allow you to interact with the system, download code, test and set memory etc.
